@@ -222,8 +222,6 @@ python src/train.py --data data/processed --model efficientnet_b3 --epochs 30
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
-
 > Note: Images downloaded via the FamilySearch API remain subject to FamilySearch's own terms of service and are not redistributed by this project.
 
 ---
