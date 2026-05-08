@@ -1,0 +1,7 @@
+﻿{
+  "1900-1909": ["Farmer", "Laborer", "Domestic servant"],
+  "1910-1919": ["Factory worker", "Clerk", "Teacher"],
+  "1920-1929": ["Machinist", "Bookkeeper", "Nurse"],
+  "1930-1939": ["Salesman", "Mechanic", "Stenographer"],
+  "1940-1948": ["Welder", "Secretary", "Railroad worker"]
+}

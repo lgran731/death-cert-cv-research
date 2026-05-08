@@ -1,0 +1,17 @@
+torch
+diffusers
+transformers
+accelerate
+datasets
+internetarchive
+opencv-python
+python-doctr
+paddleocr
+faker
+pydantic
+pyyaml
+pillow
+numpy
+pandas
+rapidfuzz
+tqdm

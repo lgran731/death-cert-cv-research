@@ -1,0 +1,7 @@
+﻿{
+  "1900-1909": ["Tuberculosis", "Pneumonia", "Typhoid fever"],
+  "1910-1919": ["Tuberculosis", "Influenza", "Pneumonia"],
+  "1920-1929": ["Heart disease", "Tuberculosis", "Nephritis"],
+  "1930-1939": ["Heart disease", "Cancer", "Pneumonia"],
+  "1940-1948": ["Heart disease", "Cancer", "Stroke"]
+}

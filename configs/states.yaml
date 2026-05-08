@@ -1,0 +1,57 @@
+version: 1
+notes: "Phase 0 seed config; expand county lists over time."
+
+defaults:
+  min_year: 1900
+  max_year: 1948
+  era_buckets:
+    - "1900-1909"
+    - "1910-1919"
+    - "1920-1929"
+    - "1930-1939"
+    - "1940-1948"
+
+states:
+  MD:
+    name: Maryland
+    min_year: 1900
+    max_year: 1948
+    priority: high
+    counties_seed:
+      - Baltimore City
+      - Allegany
+      - Anne Arundel
+      - Baltimore
+      - Calvert
+      - Caroline
+      - Carroll
+      - Cecil
+      - Charles
+      - Dorchester
+      - Frederick
+      - Garrett
+      - Harford
+      - Howard
+      - Kent
+      - Montgomery
+      - Prince George's
+      - Queen Anne's
+      - Saint Mary's
+      - Somerset
+      - Talbot
+      - Washington
+      - Wicomico
+      - Worcester
+
+  MI:
+    name: Michigan
+    min_year: 1900
+    max_year: 1948
+    priority: medium
+
+  NY:
+    name: New York
+    min_year: 1900
+    max_year: 1948
+    priority: medium
+

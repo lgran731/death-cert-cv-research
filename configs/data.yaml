@@ -1,0 +1,32 @@
+input:
+  root: data/raw
+  file_extensions: [".jpg", ".jpeg", ".png", ".tif", ".tiff", ".webp"]
+  layout: flat
+
+temporal:
+  min_year: 1900
+  max_year: 1948
+
+indexing:
+  output_csv: data/index.csv
+  pilot_ground_truth_csv: data/index_pilot_groundtruth.csv
+  status_values:
+    - confirmed
+    - needs_review
+    - rejected_pre_1900
+    - rejected_unreadable
+  confidence_thresholds:
+    state: 0.90
+    county: 0.70
+    year: 0.80
+
+preprocessing:
+  policy: resize_only
+  preserve_color: true
+  target_resolution:
+    width: 1024
+    height: 1024
+  allow_deskew: false
+  allow_binarization: false
+  allow_clahe: false
+

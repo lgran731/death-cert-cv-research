@@ -1,0 +1,14 @@
+﻿fonts:
+  - id: special_elite
+    family: "Special Elite"
+    era_buckets: ["1920-1929", "1930-1939", "1940-1948"]
+    field_types: ["typewriter", "typewriter_handfilled"]
+    license: "OFL"
+    source_url: "https://fonts.google.com/specimen/Special+Elite"
+
+  - id: caveat
+    family: "Caveat"
+    era_buckets: ["1900-1909", "1910-1919", "1920-1929", "1930-1939", "1940-1948"]
+    field_types: ["handwriting_dip_pen", "handwriting_ballpoint"]
+    license: "OFL"
+    source_url: "https://fonts.google.com/specimen/Caveat"

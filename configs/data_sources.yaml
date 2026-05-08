@@ -1,0 +1,34 @@
+sources:
+  - id: hf_rasi1610_deathce502
+    tier: 1
+    name: "Rasi1610/Deathce502_series1_new"
+    type: huggingface
+    url: "https://huggingface.co/datasets/Rasi1610/Deathce502_series1_new"
+    license: "Unknown / verify in dataset card"
+    expected_states: ["MD"]
+    expected_eras: ["1940-1948"]
+    fetch_module: "src.data.fetch_pilot"
+    enabled: true
+
+  - id: ia_maryland_archives
+    tier: 2
+    name: "Internet Archive Maryland State Archives"
+    type: internet_archive
+    url: "https://archive.org/details/marylandstatearchives"
+    license: "Public government records (verify per item)"
+    expected_states: ["MD"]
+    expected_eras: ["1900-1948", "post-1948 mixed"]
+    fetch_module: "src.data.fetch_maryland"
+    enabled: true
+
+  - id: familysearch_multistate
+    tier: 3
+    name: "FamilySearch API collections"
+    type: api
+    url: "https://developers.familysearch.org"
+    license: "FamilySearch terms"
+    expected_states: ["ALL"]
+    expected_eras: ["1900-1948 mixed"]
+    fetch_module: "src.data.fetch_familysearch"
+    enabled: false
+

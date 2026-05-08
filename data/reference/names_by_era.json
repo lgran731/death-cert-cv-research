@@ -1,0 +1,7 @@
+﻿{
+  "1900-1909": {"US": ["John", "Mary", "William", "Anna"]},
+  "1910-1919": {"US": ["James", "Helen", "Robert", "Margaret"]},
+  "1920-1929": {"US": ["Charles", "Dorothy", "George", "Ruth"]},
+  "1930-1939": {"US": ["Richard", "Betty", "Edward", "Shirley"]},
+  "1940-1948": {"US": ["Thomas", "Patricia", "Donald", "Barbara"]}
+}
