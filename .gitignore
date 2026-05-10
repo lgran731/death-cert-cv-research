@@ -16,19 +16,19 @@ env/
 # Secrets and local env
 .env
 
-# Data artifacts
-data/raw/
-data/simulated/
-data/synth_drafts/
-data/index.csv
-data/index_pilot_groundtruth.csv
+# # Data artifacts
+# data/raw/
+# data/simulated/
+# data/synth_drafts/
+# data/index.csv
+# data/index_pilot_groundtruth.csv
 
-# Model and experiment artifacts
-models/
-mlruns/
+# # Model and experiment artifacts
+# models/
+# mlruns/
 
-# Font binaries (keep registry files tracked)
-assets/fonts/*.ttf
-assets/fonts/*.otf
-assets/fonts/*.woff
-assets/fonts/*.woff2
+# # Font binaries (keep registry files tracked)
+# assets/fonts/*.ttf
+# assets/fonts/*.otf
+# assets/fonts/*.woff
+# assets/fonts/*.woff2
